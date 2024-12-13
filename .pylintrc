@@ -1,0 +1,6 @@
+[MASTER]
+ignore=venv
+jobs=1
+
+[FORMAT]
+max-line-length=88

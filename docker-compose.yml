@@ -2,13 +2,13 @@
 version: '3.9'
 
 services:
-  bot:
-    build: .
-    container_name: bot_container
-    volumes:
-      - .:/app
-    ports:
-      - "8000:8000"
-    environment:
-      - PYTHONUNBUFFERED=1
-    command: python main.py
+    bot:
+        build: .
+        container_name: bot_container
+        volumes:
+        - .:/app
+        ports:
+        - "8000:8000"
+        environment:
+        - PYTHONUNBUFFERED=1
+        command: python main.py

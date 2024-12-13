@@ -1,5 +1,8 @@
 .PHONY: install test lint format run clean
 
+install_vk:
+	bash install_vk-api.sh
+
 install:
 	pip install -r requirements.txt
 
