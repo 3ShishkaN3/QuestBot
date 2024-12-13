@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+env/
+.env/
+
+# Logs
+logs/
+*.log
+
+# Byte-compiled files
+*.py[cod]
+
+# Testing
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache/
+
+# Distribution / Packaging
+.Python
+*.egg-info/
+dist/
+build/
+
+# IDE Specific
+.vscode/
+.idea/
+*.swp
